@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 550;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.grid-wrapper {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+}
+
+.sidebar {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  background: #93c5fd;
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.firstbit,
+.secondbit {
+  padding: 2rem;
+  gap: 4rem;
+  font-size: 1.6rem;
+  font-weight: 550;
+}
+
+.title {
+  padding: 0 2rem;
+  gap: 4rem;
+}
+
+.header {
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.headertop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.topright {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1.8rem;
+}
+
+input {
+  margin-left: 2rem;
+  padding-right: 1rem;
+  border-radius: 15px;
+  width: 60%;
+  height: 90%;
+  border: none;
+  background: #e5e7eb;
+}
+
+.headerbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.bottomleft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.welcomemessagetop {
+  font-size: 1rem;
+  padding: 1rem 0rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
